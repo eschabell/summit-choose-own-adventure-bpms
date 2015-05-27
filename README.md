@@ -4,9 +4,11 @@ Workshop given at Red Hat Summit 2015 as part of the Choose Your Own Adventure m
 
 In this lab, you will:
 
-  - Create a project containing several BPM processes that integrate seamlessly with JBoss Fuse.
-  
-  - Provide full business activity monitoring (BAM) reporting abilities.
+  - Create a project containing a BPM process to handle HR Employee rewards.
+
+  - Create user tasks and forms to support them.
+
+  - Learn and implement several advanced BPMN design features.
 
 
 Install on your machine
