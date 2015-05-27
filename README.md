@@ -11,11 +11,11 @@ In this lab, you will:
 
 Install on your machine
 -----------------------
-![Cover Slide](https://raw.githubusercontent.com/eschabell/summit-racing-camel-with-jboss-bpm-fuse/master/bpms-labs/cover-summit.png)
+![Cover Slide](https://raw.githubusercontent.com/eschabell/summit-choose-own-adventure-bpms/master/bpms-labs/cover.png)
 
-1. [Download and unzip.](https://github.com/eschabell/summit-racing-camel-with-jboss-bpm-fuse/archive/master.zip)
+1. [Download and unzip.](https://github.com/eschabell/summit-choose-own-adventure-bpms/archive/master.zip)
 
-2. Open in browser, `file:///<path-to-project>/Summit-Lab-Travel-Agency-Start.pdf`
+2. Open in browser, `file:///<path-to-project>/Summit-Lab-BPM-Suite-Start.pdf`
 
 3. Enjoy the workshop! 
 
