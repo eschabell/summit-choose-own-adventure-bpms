@@ -200,16 +200,17 @@
                         <li>Either way, we get a popup start process form that we designed previously</li>
                         <li>We fill in the rewards submission details and click on the arrow at the bottom</li>
                     </ul>
-                    <img src="images/bpms_workshop/image290.png">
+                    <img src="images/bpms_workshop/image7-11.png">
                 </section>
 
                 <section>
                     <h2>Running rewards process</h2>
                     <ul>
                         <li>Watch for the yellow popup bar stating <i>Process instance started</i></li>
-                        <li>We are then presented with the process instance view, notice progression to <i>Approve Reward</i> task</li>
+                        <li>Now examine the process instance view, <code>Process Management -> Process Instances</code></li>
+                        <LI>notice progression to <i>Approve Reward</i> task</LI>
                     </ul>
-                    <img src="images/bpms_workshop/image291.png">
+                    <img src="images/bpms_workshop/image7-12.png">
                 </section>
 
                 <section>
@@ -217,29 +218,32 @@
                     <ul>
                         <li>Open the task list to view waiting user tasks</i></li>
                         <li><code>Project Authoring -> Tasks -> Tasks List</code></li>
-                        <img src="images/bpms_workshop/image292.png">
+                        <img src="images/bpms_workshop/image7-13.png">
                         <li>Our task is in the <i>Active</i> and <i>Group</i> lists until claimed</li>
                     </ul>
-                    <img src="images/bpms_workshop/image293.png">
+                    <img src="images/bpms_workshop/image7-14.png">
                 </section>
 
                 <section>
                     <h2>Running rewards process</h2>
                     <ul>
-                        <li>Click on open lock icon to claim the task, a yellow popup bar confirms claim</li>
-                        <li>We are presented with the details of our task</li>
+                        <li>Click on the task item and it will present the form we designed</li>
+                        <li>We can browse the Details, Assignments and Comments</li>
+                        <li>But we want to <code>CLAIM</code> the task to start working on it, so click the button in
+                        the form under the Work tab</li>
                     </ul>
-                    <img src="images/bpms_workshop/image294.png">
+                    <img src="images/bpms_workshop/image7-15.png">
                 </section>
 
                 <section>
                     <h2>Running rewards process</h2>
                     <ul>
-                        <li>To start working on this item, click on the check-icon or <i>Work</i> button</i></li>
+                        <li>Notice that the form changes to allow you to <code>COMPLETE</code> the task</li>
+                        <li>Also note that the task is not in the <code>GROUP</code>, but in <code>PERSONAL</code></li>
                         <li>Presented the task form on the right as we designed it, data read-only, approval check box</li>
                         <li>But wait.... something is wrong???</li>
                     </ul>
-                    <img src="images/bpms_workshop/image295.png">
+                    <img src="images/bpms_workshop/image7-16.png">
                 </section>
 
                 <section>
@@ -250,7 +254,7 @@
                         <li>Hint: mappings of data in forms...</li>
                     </ul>
                     <div align="right">
-                        <img src="images/bpms_workshop/image296.png">
+                        <img src="images/bpms_workshop/image7-17.png">
                     </div>
                 </section>
 
@@ -258,11 +262,10 @@
                     <h2>Running rewards process</h2>
                     <ul>
                         <li>Even though the data is not available for viewing right now, we can approve or deny the request</li>
-                        <li>We will approve this request by checking the box (leave blank to deny)</li>
-                        <li>Finally, to complete task, click on <i>Complete</i> button at the bottom</li>
+                        <li>We will approve this request by checking the box (leave blank to deny) and click on <i>Complete</i> button</li>
                     </ul>
                     <div align="right">
-                        <img src="images/bpms_workshop/image297.png">
+                        <img src="images/bpms_workshop/image7-18.png">
                     </div>
                 </section>
 
@@ -271,12 +274,12 @@
                     <ul>
                         <li>You should see a yellow popup bar stating task was completed</li>
                         <li>Then we are presented with an empty task list as we are done</li>
-                        <img src="images/bpms_workshop/image298.png">
+                        <img src="images/bpms_workshop/image7-19.png">
                         <li>Now we can go back and view the completed process instance</li>
                         <li><code>Process Management -> Process Instances</code></li>
                     </ul>
                     <div align="right">
-                        <img src="images/bpms_workshop/image299.png">
+                        <img src="images/bpms_workshop/image7-20.png">
                     </div>
                 </section>
 
@@ -284,20 +287,30 @@
                     <h2>Running rewards process</h2>
                     <ul>
                         <li>The initial view is empty as you are looking at <i>Active</i> process instances</li>
-                        <img src="images/bpms_workshop/image300.png">
-                        <li>We need the <i>Completed</i> instances, here I have two, yours might differ</li>
-                        <li>Click on magnifying glass icon to open your instance</li>
+                        <img src="images/bpms_workshop/image7-21.png">
+                        <li>We need the <i>Completed</i> instances, here I have just the one, yours might differ</li>
+                        <li>Click on any entry to view an instance</li>
                     </ul>
                 </section>
 
                 <section>
                     <h2>Running rewards process</h2>
                     <ul>
-                        <li>Here we selected process instance with <i>ID 2</i></li>
-                        <li>There are various details we can examine, like the <i>Instance Log</i> to see the path taken</li>
+                        <li>Here we selected process instance with <i>ID 1</i></li>
+                        <li>There are various details we can examine, like the <i>Log</i> to see the what happened</li>
                     </ul>
                     <div align="right">
-                        <img src="images/bpms_workshop/image301.png">
+                        <img src="images/bpms_workshop/image7-22.png">
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Running rewards process</h2>
+                    <ul>
+                        <li>That was the Business user view of events, switch to Technical for more depth</li>
+                    </ul>
+                    <div align="right">
+                        <img src="images/bpms_workshop/image7-23.png">
                     </div>
                 </section>
 
@@ -305,25 +318,29 @@
                     <h2>Running rewards process</h2>
                     <ul>
                         <li>What is more interesting is an image of the paths taken which is found under <i>Views</i> button</li>
-                        <li><code>Views -> Process Model</code></li>
-                        <img src="images/bpms_workshop/image302.png">
-                        <li>The grey path is the one taken by this instance</li>
+                        <li><code>Options -> Process Model</code></li>
+                        <img src="images/bpms_workshop/image7-24.png">
                     </ul>
-                    <div align="right">
-                        <img src="images/bpms_workshop/image303.png">
-                    </div>
                 </section>
 
                 <section>
                     <h2>Running rewards process</h2>
                     <ul>
-                        <li>Also interesting are the values that the process variables contained, also found under <i>Views</i> button</li>
-                        <li><code>Views -> Process Variables</code></li>
-                        <img src="images/bpms_workshop/image304.png">
+                        <li>The grey path is the one taken by this instance</li>
+                    </ul>
+                    <div align="right">
+                        <img src="images/bpms_workshop/image7-25.png">
+                    </div>
+                </section>
+                <section>
+                    <h2>Running rewards process</h2>
+                    <ul>
+                        <li>Also interesting are the values that the process variables contained</li>
+                        <li>click on tab <code>Process Variables</code></li>
                         <li>View variable values over time by clicking any clock icon</li>
                     </ul>
                     <div align="right">
-                        <img src="images/bpms_workshop/image305.png">
+                        <img src="images/bpms_workshop/image7-26.png">
                     </div>
                 </section>
 
@@ -336,28 +353,28 @@
                         <li><code>Dashboards -> Process & Task Dashboard</code></li>
                     </ul>
                     <div align="right">
-                        <img src="images/bpms_workshop/image306.png">
+                        <img src="images/bpms_workshop/image7-27.png">
                     </div>
                 </section>
 
                 <section>
                     <h2>Running rewards process</h2>
                     <ul>
-                        <li>The dashboard shows the history information on process and tasks</li>
+                        <li>Dashboard shows historical BPM information</li>
                     </ul>
                     <div align="right">
-                        <img src="images/bpms_workshop/image307.png">
+                        <img src="images/bpms_workshop/image7-28.png">
                     </div>
                 </section>
 
                 <section>
                     <h2>Running rewards process</h2>
                     <ul>
-                        <li>Drill down into <i>Instances by process</i> pie chart by clicking on it (top right)</li>
+                        <li>Drill down into <i>Instances by process</i>, click on it (top left)</li>
                         <li>Now you see the status of the instances, a not assigned task from our active process instance</li>
                     </ul>
                     <div align="right">
-                        <img src="images/bpms_workshop/image308.png">
+                        <img src="images/bpms_workshop/image7-29.png">
                     </div>
                 </section>
 
@@ -366,13 +383,21 @@
                     <ul>
                         <li>Video tour showing how it works:</li>
                     </ul>
-                    <a href="http://vimeo.com/ericschabell/bpms-hr-employee-rewards-demo-run" target="_blank"><img src="images/bpms_workshop/image309.png"></a>
+                    <a href="http://vimeo.com/ericschabell/bpms-hr-employee-rewards-demo-run" target="_blank"><img src="images/bpms_workshop/image7-30.png"></a>
                 </section>
 
-
-                <section>
-                    <h2>Rewards process project</h2>
-                    <h5>(next up, new requirements leads to next evolution of the reward process project...)</h5>
+                <section data-background="images/rh-images/rh-bg-start.jpg" data-background-size="cover" data-background-position="center bottom">
+                    <div  style="width: 1056px; height: 200px">
+                        <h2 style="color: white">Ready for more?</h2>
+                    </div>
+                    <div  style="width: 1000px; height: 200px">
+                        <h5 style="color: white">Next up, new requirements leads to next evolution of the reward process project... but you will
+                        need to follow the continuation of this project online, where we build more advanced BPM functionality
+                        into our Rewards process project and there are many more workshops to explore.</h5>
+                    </div>
+                    <div  style="width: 1056px; height: 100px">
+                        <h3><a href="http://bpmworkshop-onthe.rhcloud.com" style="color: red" target="_blank">http://bpmworkshop-onthe.rhcloud.com</a></h3>
+                    </div>
                 </section>
 
                 <section data-background="images/jteimages/image42.png" data-background-position="top">
@@ -408,11 +433,6 @@
                             <li><a href="http://www.schabell.org/2015/02/into-clouds-with-jboss-bpm-travel-agency.html" style="color: red" target="_blank">bpmPaaS Travel Agency in the Cloud</a></li>
                         </ul>
                     </ul>
-                </section>
-
-                <section>
-                    <h2>JBoss BPM Suite Workshop</h2>
-                    <h3><a href="lab08.html" style="color: red" target="_blank">Lab 08 - Automated task reassignment</a></h3>
                 </section>
             </div>
 		</div>
