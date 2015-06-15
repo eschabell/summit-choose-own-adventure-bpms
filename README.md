@@ -24,7 +24,7 @@ Install on your machine
 
 Supporting Articles
 -------------------
-
+[Red Hat Summit 2015 Preview - Choose Your Own Adventure with JBoss BPM Suite](http://www.schabell.org/2015/06/redhat-summit-2015-preview-choose-adventure-bpms.html)
 
 Released versions
 -----------------
