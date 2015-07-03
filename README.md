@@ -1,8 +1,8 @@
 JBoss BPM Suite HR Employee Rewards
 ===================================
-Workshop given at Red Hat Summit 2015 as part of the Choose Your Own Adventure middleware showcase.
+Workshop originally given at Red Hat Summit as part of the Choose Your Own Adventure middleware showcase.
 
-In this lab, you will:
+In this workshop, you will:
 
   - Create a project containing a BPM process to handle HR Employee rewards.
 
@@ -17,7 +17,7 @@ Install on your machine
 
 1. [Download and unzip.](https://github.com/eschabell/summit-choose-own-adventure-bpms/archive/master.zip)
 
-2. Open in browser, `file:///<path-to-project>/summit-choose-own-adventure-bpms/Summit-Lab-BPM-Suite-Start.pdf`
+2. Open in browser, `file:///<path-to-project>/summit-choose-own-adventure-bpms-master/Summit-Lab-BPM-Suite-Start.pdf`
 
 3. Enjoy the workshop! 
 
@@ -29,5 +29,7 @@ Supporting Articles
 Released versions
 -----------------
 See the tagged releases for the following versions of the product:
+
+- v1.1 - JBoss BPM Suite 6.1 and workshop instructions to host session on build the JBoss HR Employee Rewards process.
 
 - v1.0 - JBoss BPM Suite 6.1 and lab instructions to build the JBoss HR Employee Rewards process.
