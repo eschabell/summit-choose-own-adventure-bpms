@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/summit-choose-own-adventure-bpms)
+
+
 JBoss BPM Suite HR Employee Rewards
 ===================================
 Workshop originally given at Red Hat Summit as part of the Choose Your Own Adventure middleware showcase.
